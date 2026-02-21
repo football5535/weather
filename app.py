@@ -28,7 +28,6 @@ def change_city():
     print(data["city"])
     print(CITY)
     return data["city"], 204
-
-    return CITY
 if __name__ == "__main__":
+
     app.run(debug=True)
