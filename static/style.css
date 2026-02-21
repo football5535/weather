@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Knewave&family=Special+Gothic+Expanded+One&display=swap');
+body{
+    background-image: url("https://images.unsplash.com/photo-1485123263479-f5ea30a2f92d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlJTIwc25vd3xlbnwwfHwwfHx8MA%3D%3D");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Anonymous Pro", monospace;
+    box-shadow: inset 200px 200px 149px rgba(0, 0, 0, 0.482);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    font-family: "Knewave", system-ui;
+    font-size: 3rem;
+    color: #2C2C2C;
+    text-shadow: 5px 5px 29px rgba(0, 0, 0, 0.482);
+
+}
+body h1:first-child {
+    margin-top: 0;
+}
+#info{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: calc(40% - 4rem);
+    padding: 2rem;
+    background-color: rgb(240, 200, 200);
+    border-radius: 0.5rem;
+    color: #2C2C2C;
+}
+input{
+    background-color: transparent;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border: 3px solid #2C2C2C;
+    color: #2C2C2C;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 24px white;
+    transition: 0.4s all  ease-in-out;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.482);
+}
+input:focus {
+    border: 3px solid rgb(240, 200, 200);
+    outline: none;
+}
+#inputholder{
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+button{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    background-color: transparent ;
+    border: #2C2C2C 3px solid;
+    color: #2C2C2C;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    border: rgb(240, 200, 200) 3px solid;
+
+}
+main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8E7;
+    width: 50%;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.877);
+    gap: 1rem;
+}
+h2{
+    text-align: start;
+}
+#footer{
+    position: absolute;
+    bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.482);
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+#holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -0.5rem;
+}
+#holder img{
+    height: 3rem;
+    width: 3rem;
+}

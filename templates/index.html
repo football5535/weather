@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <script src="/static/script.js" defer></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main>
+        <h1>Search for any place you want</h1>
+        <div id="inputholder">
+            <input type="text" id="City" onchange="changecity()" value="Vintertun">
+            <button id="Search" onclick="changecity()">Search</button>
+        </div>
+        <div id="info"> 
+            <div id="holder">
+                <img src="" alt="" id="wheatherico">
+                <h2>Info:</h2>
+            </div>
+            <p id="temp"></p>
+            <p id="wind"></p>
+            <p id="feels_like"></p>
+            <p id="wheather"></p>
+            
+        </div>
+        <p id="footer">Powerd by Openweather</p>
+    </main>
+</body>
+</html>
