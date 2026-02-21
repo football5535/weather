@@ -125,6 +125,9 @@ h2{
     main{
         min-width: 600px;
     }
+    #info{
+        width: 70%;
+    }
 }
 @media (max-width: 900px )  {
     html{
@@ -135,5 +138,8 @@ h2{
     }
     body{
         height: 100vh;
+    }
+    #info{
+        width: 70%;
     }
 }
